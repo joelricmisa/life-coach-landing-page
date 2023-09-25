@@ -6,18 +6,19 @@ import { useState } from "react";
 const Header = () => {
 	const [show, setShow] = useState(false);
 	return (
-		<header className={`${show ? "h-screen absolute inset-0" : "h-auto"} font-publicSans font-medium `}>
+		<header className={`${show ? "h-screen fixed inset-0 z-30" : "h-auto"} font-publicSans font-medium `}>
 			<div
 				className={`${
 					show ? "h-full" : "h-[120px] overflow-hidden "
 				} flex gap-10  w-11/12 mx-auto lg:items-center  py-10  flex-col lg:flex-row overflow-hidden`}>
+				{/* Brand Logo  */}
 				<a href="">
 					<img
 						src="/src/assets/logo.png"
 						className="mb-1"
 					/>
 				</a>
-
+				{/* Navs  */}
 				<nav
 					className={`${
 						show ? "h-auto" : "h-0 w-0  overflow-hidden"
@@ -39,7 +40,7 @@ const Header = () => {
 				<button
 					onClick={() => setShow(!show)}
 					className="lg:hidden block">
-					<FaBars className="text-4xl fill-primary border border-primary/50 rounded-md cursor-pointer p-1 absolute top-10 right-10 hover:scale-105 active:scale-100 hover:bg-primary/10" />
+					<FaBars className="text-4xl fill-primary border border-primary/50 rounded-md cursor-pointer p-1 absolute top-[5%] right-[5%] hover:scale-105 active:scale-100 hover:bg-primary/10" />
 				</button>
 			</div>
 		</header>

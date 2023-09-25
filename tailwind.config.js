@@ -19,6 +19,9 @@ export default {
 				lg: "1100px",
 				xl: "1440px",
 			},
+			backgroundImage: {
+				hero: 'url("./src/assets/heroBg.png")',
+			},
 		},
 	},
 	plugins: [],
