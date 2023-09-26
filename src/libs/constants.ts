@@ -1,3 +1,5 @@
+import { colab, border, luminous, mindfullness, minty, nextmove, snowflake, vision } from "../assets/companies";
+
 export const navLinks = [
 	{
 		name: "Home",
@@ -16,3 +18,5 @@ export const navLinks = [
 		href: "#pages",
 	},
 ] as const;
+
+export const companies = [luminous, minty, nextmove, vision, mindfullness, border, snowflake, colab] as const;
