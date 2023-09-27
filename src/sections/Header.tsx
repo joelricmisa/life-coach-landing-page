@@ -2,6 +2,7 @@ import { navLinks } from "../libs/constants";
 import Button from "../components/Button";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
+import { logo } from "../assets";
 
 const Header = () => {
 	const [show, setShow] = useState(false);
@@ -14,7 +15,7 @@ const Header = () => {
 				{/* Brand Logo  */}
 				<a href="">
 					<img
-						src="/src/assets/logo.png"
+						src={logo}
 						className="mb-1"
 					/>
 				</a>

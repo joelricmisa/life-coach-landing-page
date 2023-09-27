@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa6";
+import { heroImg } from "../assets";
 
 const Hero = () => {
 	return (
@@ -19,7 +20,7 @@ const Hero = () => {
 					</p>
 				</div>
 				<img
-					src="./src/assets/heroImg.png"
+					src={heroImg}
 					className="lg:basis-4/12  md:h-[805px] md:w-[650px] lg:h-auto lg:w-auto mx-auto"
 				/>
 			</div>
