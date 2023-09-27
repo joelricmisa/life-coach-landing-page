@@ -50,3 +50,21 @@ export const servicesData = [
 		image: serviceImg3,
 	},
 ];
+
+export const whyData = [
+	{
+		title: "Gain Clarity and Focus",
+		description:
+			"A life coach can help you gain clarity and focus by asking the right questions, helping you identify your strengths and values, and guiding you toward a clearer vision of your future.",
+	},
+	{
+		title: "Overcome Obstacles",
+		description:
+			"Whether it's a lack of confidence, a fear of failure, or a personal roadblock, a life coach can help you overcome these obstacles by providing accountability, support, and guidance.",
+	},
+	{
+		title: "Achieve Your Potential",
+		description:
+			"A life coach can help you tap into your full potential by setting clear goals, creating a plan action, and providing ongoing support. guide you to achieve the success you've always dreamed.",
+	},
+];

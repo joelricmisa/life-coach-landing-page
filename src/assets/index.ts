@@ -16,6 +16,7 @@ import serviceImg1 from "./serviceImg1.png";
 import serviceImg2 from "./serviceImg2.png";
 import serviceImg3 from "./serviceImg3.png";
 import signature from "./signature.png";
+import whyImg from "./whyImg.png";
 
 export {
 	colab,
@@ -36,4 +37,5 @@ export {
 	serviceImg2,
 	serviceImg3,
 	signature,
+	whyImg,
 };

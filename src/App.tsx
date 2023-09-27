@@ -3,6 +3,7 @@ import Companies from "./sections/Companies";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
+import Why from "./sections/Why";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Companies />
 			<About />
 			<Services />
+			<Why />
 		</>
 	);
 }
