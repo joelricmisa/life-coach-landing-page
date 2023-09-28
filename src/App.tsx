@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import Books from "./sections/Books";
 import Companies from "./sections/Companies";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
@@ -14,6 +15,7 @@ function App() {
 			<About />
 			<Services />
 			<Why />
+			<Books />
 		</>
 	);
 }
