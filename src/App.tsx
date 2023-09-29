@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import Blog from "./sections/Blog";
 import Books from "./sections/Books";
 import CTA from "./sections/CTA";
 import Companies from "./sections/Companies";
@@ -18,6 +19,7 @@ function App() {
 			<Why />
 			<Books />
 			<CTA />
+			<Blog />
 		</>
 	);
 }

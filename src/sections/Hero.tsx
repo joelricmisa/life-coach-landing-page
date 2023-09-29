@@ -1,6 +1,8 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa6";
 import { heroImg } from "../assets";
+import HeadingText from "../components/HeadingText";
+import ParagraphText from "../components/ParagraphText";
 
 const Hero = () => {
 	return (
@@ -12,13 +14,16 @@ const Hero = () => {
 						src="/src/assets/heroBg.png"
 						className="absolute bottom-5 left-0 w-full"
 					/>
-					<h1 className="text-3xl sm:text-4xl md:text-5xl	xl:text-6xl font-semibold leading-tight sm:leading-tight md:leading-tight xl:leading-tight w-full bg-transparent z-10">
+					<HeadingText extraStyle="z-10 bg-transparent w-full xl:text-6xl">
 						Discover Your Inner <br /> Strength and Create <br /> a Life You Love
-					</h1>
-					<p className="opacity-60 text-lg lg:pr-24 bg-transparent">
+					</HeadingText>
+
+					<ParagraphText extraStyle="lg:pr-24 bg-transparent">
 						Life coaches will guide you through a transformational journey of self- discovery, helping you identify your unique gifts
 						and talents
-					</p>
+					</ParagraphText>
+
+					{/* Play Button  */}
 					<p className="flex gap-4 items-center w-full font-inter text-lg font-medium bg-transparent z-10">
 						<FaPlay className="text-6xl p-4 fill-white rounded-full bg-primary" />
 						Watch Video

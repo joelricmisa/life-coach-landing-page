@@ -1,5 +1,8 @@
 import React from "react";
 import { aboutImg1, aboutImg2, num87, num92, signature } from "../assets";
+import HeadingText from "../components/HeadingText";
+import ParagraphText from "../components/ParagraphText";
+import Percentage from "../components/Percentage";
 
 const About = () => {
 	return (
@@ -10,13 +13,14 @@ const About = () => {
 					alt="coach image"
 				/>
 				<div className="h-full  flex flex-col gap-10">
-					<h1 className="text-3xl sm:text-4xl md:text-5xl	 font-semibold leading-tight sm:leading-tight md:leading-tight xl:leading-tight ">
+					<HeadingText>
 						Helping You Create A Life <br /> that Aligns with Your Values <br /> and Passions
-					</h1>
-					<p className="font-inter opacity-60 justify-center">
+					</HeadingText>
+					<ParagraphText>
 						Lifkoach was founded by a team of passionate and experienced life coaches who believe in the power of personal
 						transformation. We offer a range of services to help you ignite your inner fire and create a life you love.
-					</p>
+					</ParagraphText>
+
 					<img
 						src={signature}
 						alt="coach signature"
@@ -26,35 +30,27 @@ const About = () => {
 			</div>
 			<div className="flex lg:flex-row flex-col justify-center items-center py-14 gap-20">
 				<div className="h-full  flex flex-col gap-10">
-					<h1 className="text-3xl sm:text-4xl md:text-5xl	 font-semibold leading-tight sm:leading-tight md:leading-tight xl:leading-tight">
+					<HeadingText>
 						Your Source for Personal and <br /> Professional Development
-					</h1>
-					<p className="font-inter opacity-60  justify-center">
+					</HeadingText>
+
+					<ParagraphText>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
 						ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.
-					</p>
+					</ParagraphText>
+
 					<div className="flex lg:flex-row flex-col gap-16">
-						<h2 className="font-semibold text-2xl flex items-center gap-5">
-							<span className="relative h-[115px] block w-[115px]">
-								<img
-									src={num92}
-									alt="92 percent"
-									className="h-full w-full"
-								/>
-								<span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">92%</span>
-							</span>
+						<Percentage
+							percent="92"
+							imgSrc={num92}>
 							Private <br /> Coaching
-						</h2>
-						<h2 className="font-semibold text-2xl flex items-center gap-5">
-							<span className="relative h-[115px] block w-[115px]">
-								<img
-									src={num87}
-									alt="87 percent"
-								/>
-								<span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">87%</span>
-							</span>
+						</Percentage>
+
+						<Percentage
+							percent="87"
+							imgSrc={num87}>
 							Group <br /> Program
-						</h2>
+						</Percentage>
 					</div>
 				</div>
 
