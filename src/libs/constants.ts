@@ -10,6 +10,10 @@ import {
 	serviceImg1,
 	serviceImg2,
 	serviceImg3,
+	blogImg1,
+	blogImg4,
+	blogImg2,
+	blogImg3,
 } from "../assets";
 
 export const navLinks = [
@@ -66,5 +70,36 @@ export const whyData = [
 		title: "Achieve Your Potential",
 		description:
 			"A life coach can help you tap into your full potential by setting clear goals, creating a plan action, and providing ongoing support. guide you to achieve the success you've always dreamed.",
+	},
+];
+
+export const blogData = [
+	{
+		imgSrc: blogImg1,
+		category: "Insight",
+		title: "How to use your body to accelerate good choices",
+		author: "Jane Doe",
+		date: "March 3, 2023",
+	},
+	{
+		imgSrc: blogImg2,
+		category: "Strategies",
+		title: "Setting healthy boundaries that really work",
+		author: "Jane Doe",
+		date: "March 3, 2023",
+	},
+	{
+		imgSrc: blogImg3,
+		category: "Tips & Trick",
+		title: "The Power of Positive Thinking Shift Mindset",
+		author: "Jane Doe",
+		date: "March 3, 2023",
+	},
+	{
+		imgSrc: blogImg4,
+		category: "Insight",
+		title: "Emotional fitness and the truth about feelings",
+		author: "Jane Doe",
+		date: "March 3, 2023",
 	},
 ];
