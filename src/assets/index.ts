@@ -11,7 +11,6 @@ import num92 from "./92.png";
 import aboutImg1 from "./aboutImg1.png";
 import aboutImg2 from "./aboutImg2.png";
 import heroImg from "./heroImg.png";
-import logo from "./logo.png";
 import serviceImg1 from "./serviceImg1.png";
 import serviceImg2 from "./serviceImg2.png";
 import serviceImg3 from "./serviceImg3.png";
@@ -32,6 +31,7 @@ import testimonialImg4 from "./testimonialImg4.png";
 import backgroundOverlay from "./Background-overlay.png";
 import parallaxImg from "./parallaxImg.png";
 import footerBg from "./footerBg.png";
+import logo from "./smallLogo.png";
 
 export {
 	colab,
