@@ -4,6 +4,7 @@ import Books from "./sections/Books";
 import CTA from "./sections/CTA";
 import Companies from "./sections/Companies";
 import Events from "./sections/Events";
+import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Parallax from "./sections/Parallax";
@@ -20,12 +21,13 @@ function App() {
 			<About />
 			<Services />
 			<Why />
-			<Books />
 			<Events />
 			<Testimonials />
 			<Parallax />
+			<Books />
 			<CTA />
 			<Blog />
+			<Footer />
 		</>
 	);
 }

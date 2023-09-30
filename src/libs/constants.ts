@@ -175,3 +175,17 @@ export const eventData = [
 		time: "10:00 am - 02:00 pm",
 	},
 ];
+
+export const footerData = {
+	navlinks: ["Home", "About Us", "Services", "Contact Us"],
+	columnData: [
+		{
+			title: "Support",
+			list: ["Help Center", "Privacy Policy", "FAQ", "Terms & Condition", " Community"],
+		},
+		{
+			title: "Contact",
+			list: ["Jl. Umalas 1 No.3, Kerobokan Kelod, Badung, Bali", "+62 (522) 9805084", "support@domain.com"],
+		},
+	],
+};

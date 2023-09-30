@@ -6,8 +6,8 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const Parallax = () => {
 	return (
-		<section>
-			<div className="flex gap-10 lg:flex-row flex-col px-10 lg:px-0">
+		<section className="bg-neutral">
+			<div className="flex gap-10 lg:flex-row flex-col px-10 lg:px-0 my-16">
 				<img
 					src={parallaxImg}
 					alt=""
@@ -17,7 +17,7 @@ const Parallax = () => {
 					<ParagraphText>
 						Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.
 					</ParagraphText>
-					<span className="block h-0.5 w-full bg-primary/50"></span>
+					<span className="block h-0.5 w-full bg-primary/30"></span>
 					<div className="flex flex-col gap-2 ">
 						<h2 className="flex gap-5 items-center font-semibold text-2xl ">
 							<FaCircleCheck className="text-xl fill-primary" />

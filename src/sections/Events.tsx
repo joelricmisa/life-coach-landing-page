@@ -7,8 +7,8 @@ import { eventData } from "../libs/constants";
 
 const Events = () => {
 	return (
-		<section>
-			<div className="flex flex-col lg:flex-row  lg:w-11/12 mx-auto px-10 relative my-10 lg:my-20">
+		<section className="bg-neutral">
+			<div className="flex flex-col lg:flex-row  lg:w-11/12 mx-auto px-10 relative py-24 lg:my-20">
 				{/* line bg */}
 				<img
 					src={backgroundOverlay}

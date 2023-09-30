@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 * {
-	@apply scroll-smooth text-textColor bg-gray-50;
+	@apply scroll-smooth text-textColor;
 }

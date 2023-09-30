@@ -7,7 +7,7 @@ import { logo } from "../assets";
 const Header = () => {
 	const [show, setShow] = useState(false);
 	return (
-		<header className={`${show ? "h-screen fixed inset-0 z-30" : "h-auto"} font-publicSans font-medium `}>
+		<header className={`${show ? "h-screen fixed inset-0 z-30" : "h-auto"} bg-neutral font-publicSans font-medium `}>
 			<div
 				className={`${
 					show ? "h-full" : "h-[120px] overflow-hidden "

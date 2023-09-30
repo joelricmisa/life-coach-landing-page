@@ -6,7 +6,7 @@ import ParagraphText from "../components/ParagraphText";
 
 const Hero = () => {
 	return (
-		<section>
+		<section className="bg-neutral">
 			<div className="flex flex-col lg:h-screen gap-10 lg:gap-0  lg:flex-row  ">
 				<div className="md:px-20 px-10 py-24  flex justify-center items-center   flex-col gap-10  lg:bg-center lg:basis-8/12 relative bg-transparent">
 					{/* bg line  */}
