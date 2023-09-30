@@ -139,3 +139,39 @@ export const testimonialData = [
 		img: testimonialImg4,
 	},
 ];
+
+export const eventData = [
+	{
+		day: "05",
+		month: "Mar",
+		year: "2023",
+		title: "Discover Your Purpose Workshop",
+		location: "Sanur, Bali",
+		time: "10:00 am - 02:00 pm",
+	},
+	{
+		day: "25",
+		month: "Mar",
+		year: "2023",
+		title: "Tips to Overcome Procrastination and Boost Productivity",
+		location: "Ubud, Bali",
+		time: "10:00 am - 02:00 pm",
+	},
+
+	{
+		day: "07",
+		month: "Apr",
+		year: "2023",
+		title: "Leadership Development Retreat",
+		location: "Canggu, Bali",
+		time: "10:00 am - 02:00 pm",
+	},
+	{
+		day: "15",
+		month: "Apr",
+		year: "2023",
+		title: "The Power of Gratitude: Cultivate an Attitude of Gratitude for a Happier Life",
+		location: "Ubud, Bali",
+		time: "10:00 am - 02:00 pm",
+	},
+];

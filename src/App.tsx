@@ -3,6 +3,7 @@ import Blog from "./sections/Blog";
 import Books from "./sections/Books";
 import CTA from "./sections/CTA";
 import Companies from "./sections/Companies";
+import Events from "./sections/Events";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
@@ -19,6 +20,7 @@ function App() {
 			<Services />
 			<Why />
 			<Books />
+			<Events />
 			<Testimonials />
 			<CTA />
 			<Blog />
