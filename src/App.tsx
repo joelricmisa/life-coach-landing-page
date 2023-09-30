@@ -6,6 +6,7 @@ import Companies from "./sections/Companies";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
+import Testimonials from "./sections/Testimonials";
 import Why from "./sections/Why";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 			<Services />
 			<Why />
 			<Books />
+			<Testimonials />
 			<CTA />
 			<Blog />
 		</>

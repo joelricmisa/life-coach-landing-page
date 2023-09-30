@@ -23,6 +23,12 @@ import blogImg1 from "./blogImg1.png";
 import blogImg2 from "./blogImg2.png";
 import blogImg3 from "./blogImg3.png";
 import blogImg4 from "./blogImg4.png";
+import fourNHalfStar from "./four-half-star.png";
+import quote from "./quote.svg";
+import testimonialImg1 from "./testimonialImg1.png";
+import testimonialImg2 from "./testimonialImg2.png";
+import testimonialImg3 from "./testimonialImg3.png";
+import testimonialImg4 from "./testimonialImg4.png";
 
 export {
 	colab,
@@ -50,4 +56,10 @@ export {
 	blogImg2,
 	blogImg3,
 	blogImg4,
+	fourNHalfStar,
+	quote,
+	testimonialImg1,
+	testimonialImg2,
+	testimonialImg3,
+	testimonialImg4,
 };

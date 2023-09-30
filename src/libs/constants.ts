@@ -14,6 +14,10 @@ import {
 	blogImg4,
 	blogImg2,
 	blogImg3,
+	testimonialImg1,
+	testimonialImg2,
+	testimonialImg3,
+	testimonialImg4,
 } from "../assets";
 
 export const navLinks = [
@@ -101,5 +105,37 @@ export const blogData = [
 		title: "Emotional fitness and the truth about feelings",
 		author: "Jane Doe",
 		date: "March 3, 2023",
+	},
+];
+
+export const testimonialData = [
+	{
+		name: "Howard Woods",
+		jobTitle: "Lead Developer",
+		comment:
+			"Sed ut perspiciatis unde omnis iste natus error sit doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+		img: testimonialImg1,
+	},
+	{
+		name: "Pamela Allen",
+		jobTitle: "Entrepreneur",
+		comment:
+			"Sed ut perspiciatis unde omnis iste natus error sit doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+		img: testimonialImg2,
+	},
+
+	{
+		name: "Joshua Hawkins",
+		jobTitle: "Influencer",
+		comment:
+			"Sed ut perspiciatis unde omnis iste natus error sit doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+		img: testimonialImg3,
+	},
+	{
+		name: "Lisa Guerrero",
+		jobTitle: "Head of Marketing",
+		comment:
+			"Sed ut perspiciatis unde omnis iste natus error sit doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+		img: testimonialImg4,
 	},
 ];
