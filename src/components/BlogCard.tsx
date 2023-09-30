@@ -11,9 +11,9 @@ type Props = {
 
 const BlogCard = ({ imgSrc, category, title, author, date }: Props) => {
 	return (
-		<section className="md:w-[600px] md:flex my-5 border border-black/5 rounded-md shadow-sm">
+		<section className="xl:w-[600px] md:flex my-5 border border-black/5 rounded-md shadow-sm">
 			<img
-				className="w-full md:w-1/2"
+				className="w-full md:w-[350px] xl:w-1/2"
 				src={imgSrc}
 				alt=""
 			/>

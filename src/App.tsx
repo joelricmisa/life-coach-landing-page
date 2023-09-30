@@ -6,6 +6,7 @@ import Companies from "./sections/Companies";
 import Events from "./sections/Events";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
+import Parallax from "./sections/Parallax";
 import Services from "./sections/Services";
 import Testimonials from "./sections/Testimonials";
 import Why from "./sections/Why";
@@ -22,6 +23,7 @@ function App() {
 			<Books />
 			<Events />
 			<Testimonials />
+			<Parallax />
 			<CTA />
 			<Blog />
 		</>

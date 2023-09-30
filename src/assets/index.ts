@@ -30,6 +30,7 @@ import testimonialImg2 from "./testimonialImg2.png";
 import testimonialImg3 from "./testimonialImg3.png";
 import testimonialImg4 from "./testimonialImg4.png";
 import backgroundOverlay from "./Background-overlay.png";
+import parallaxImg from "./parallaxImg.png";
 
 export {
 	colab,
@@ -64,4 +65,5 @@ export {
 	testimonialImg3,
 	testimonialImg4,
 	backgroundOverlay,
+	parallaxImg,
 };

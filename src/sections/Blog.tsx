@@ -9,7 +9,7 @@ const Blog = () => {
 	return (
 		<section>
 			<div className="lg:w-11/12 px-10 mx-auto py-24">
-				<div className="flex justify-between items-center gap-10 mb-20">
+				<div className="flex lg:flex-row flex-col justify-between items-center gap-10 mb-20">
 					<HeadingText extraStyle="md:text-4xl">
 						Discover Your Inner Potential <br /> with Our Life Coaching Blog
 					</HeadingText>
