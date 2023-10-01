@@ -1,3 +1,4 @@
+import SimpleAnimation from "./components/SimpleAnimation";
 import About from "./sections/About";
 import Blog from "./sections/Blog";
 import Books from "./sections/Books";
@@ -15,19 +16,58 @@ import Why from "./sections/Why";
 function App() {
 	return (
 		<>
-			<Header />
-			<Hero />
-			<Companies />
-			<About />
-			<Services />
-			<Why />
-			<Events />
-			<Testimonials />
-			<Parallax />
-			<Books />
-			<CTA />
-			<Blog />
-			<Footer />
+			{/* Header */}
+			<SimpleAnimation>
+				<Header />
+			</SimpleAnimation>
+			{/* Hero */}
+			<SimpleAnimation>
+				<Hero />
+			</SimpleAnimation>
+			{/* Companies  */}
+			<SimpleAnimation>
+				<Companies />
+			</SimpleAnimation>
+			{/* About  */}
+			<SimpleAnimation>
+				<About />
+			</SimpleAnimation>
+			{/* Services  */}
+			<SimpleAnimation>
+				<Services />
+			</SimpleAnimation>
+			{/* Why  */}
+			<SimpleAnimation>
+				<Why />
+			</SimpleAnimation>
+			{/* Events  */}
+			<SimpleAnimation>
+				<Events />
+			</SimpleAnimation>
+			{/* Testimonials  */}
+			<SimpleAnimation>
+				<Testimonials />
+			</SimpleAnimation>
+			{/* Parallax  */}
+			<SimpleAnimation>
+				<Parallax />
+			</SimpleAnimation>
+			{/* Books  */}
+			<SimpleAnimation>
+				<Books />
+			</SimpleAnimation>
+			{/* CTA  */}
+			<SimpleAnimation>
+				<CTA />
+			</SimpleAnimation>
+			{/* Blog  */}
+			<SimpleAnimation>
+				<Blog />
+			</SimpleAnimation>
+			{/* Footer  */}
+			<SimpleAnimation>
+				<Footer />
+			</SimpleAnimation>
 		</>
 	);
 }

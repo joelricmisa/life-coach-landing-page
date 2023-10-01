@@ -11,6 +11,7 @@ const Parallax = () => {
 				<img
 					src={parallaxImg}
 					alt=""
+					className="lg:w-1/2"
 				/>
 				<div className="lg:p-16  lg:w-1/2 flex flex-col gap-10">
 					<HeadingText>Dare to Dream Big and Step into Your Power to Achieve Your Goals</HeadingText>
