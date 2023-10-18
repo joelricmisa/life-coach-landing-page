@@ -1,5 +1,5 @@
 import React from "react";
-import { bookImg } from "../assets";
+import { bookImg } from "../assets/images";
 import Button from "../components/Button";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";

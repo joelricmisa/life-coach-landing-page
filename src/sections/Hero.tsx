@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa6";
-import { heroImg } from "../assets";
+import { heroImg } from "../assets/images";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";
 

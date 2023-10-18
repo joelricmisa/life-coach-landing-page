@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutImg1, aboutImg2, num87, num92, signature } from "../assets";
+import { aboutImg1, aboutImg2, num87, num92, signature } from "../assets/images";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";
 import Percentage from "../components/Percentage";

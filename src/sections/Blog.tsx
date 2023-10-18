@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../components/Button";
 import HeadingText from "../components/HeadingText";
 import BlogCard from "../components/BlogCard";
-import { blogImg1 } from "../assets";
+import { blogImg1 } from "../assets/images";
 import { blogData } from "../libs/constants";
 
 const Blog = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { ctaImg } from "../assets";
+import { ctaImg } from "../assets/images";
 import Button from "../components/Button";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";

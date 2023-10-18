@@ -1,7 +1,7 @@
 import React from "react";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";
-import { fourNHalfStar } from "../assets";
+import { fourNHalfStar } from "../assets/images";
 import TestimonialCard from "../components/TestimonialCard";
 import { testimonialData } from "../libs/constants";
 

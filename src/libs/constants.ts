@@ -18,7 +18,7 @@ import {
 	testimonialImg2,
 	testimonialImg3,
 	testimonialImg4,
-} from "../assets";
+} from "../assets/images";
 
 export const navLinks = [
 	{

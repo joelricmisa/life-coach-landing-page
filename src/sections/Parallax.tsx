@@ -1,5 +1,5 @@
 import React from "react";
-import { parallaxImg } from "../assets";
+import { parallaxImg } from "../assets/images";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";
 import { FaCircleCheck } from "react-icons/fa6";

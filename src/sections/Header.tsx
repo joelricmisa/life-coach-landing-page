@@ -2,12 +2,11 @@ import { navLinks } from "../libs/constants";
 import Button from "../components/Button";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
-import { logo } from "../assets";
+import { logo } from "../assets/images";
 
 const Header = () => {
 	const [show, setShow] = useState(false);
 	return (
-		
 		<header className={`${show ? "h-screen fixed inset-0 z-30" : "h-auto"} bg-neutral font-publicSans font-medium `}>
 			<div
 				className={`${

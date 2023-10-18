@@ -1,6 +1,6 @@
 import React from "react";
 import ParagraphText from "./ParagraphText";
-import { quote, testimonialImg1 } from "../assets";
+import { quote, testimonialImg1 } from "../assets/images";
 
 type Props = {
 	img: string;

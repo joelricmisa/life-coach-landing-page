@@ -1,5 +1,5 @@
 import React from "react";
-import { whyImg } from "../assets";
+import { whyImg } from "../assets/images";
 import { whyData } from "../libs/constants";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";

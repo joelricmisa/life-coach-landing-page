@@ -2,7 +2,7 @@ import React from "react";
 import HeadingText from "../components/HeadingText";
 import { FaEnvelope, FaPhone } from "react-icons/fa6";
 import EventCard from "../components/EventCard";
-import { backgroundOverlay } from "../assets";
+import { backgroundOverlay } from "../assets/images";
 import { eventData } from "../libs/constants";
 
 const Events = () => {

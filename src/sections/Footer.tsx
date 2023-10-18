@@ -1,7 +1,7 @@
 import React from "react";
 import { footerData } from "../libs/constants";
 import { FaEnvelope, FaFacebook, FaFacebookF, FaInstagram, FaLinkedinIn, FaLocationDot, FaPhone } from "react-icons/fa6";
-import { footerBg } from "../assets";
+import { footerBg } from "../assets/images";
 
 const Footer = () => {
 	return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { num87, num92 } from "../assets";
+import { num87, num92 } from "../assets/images";
 
 type Props = {
 	children: React.ReactNode;
