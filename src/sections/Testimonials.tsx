@@ -1,4 +1,3 @@
-import React from "react";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";
 import { fourNHalfStar } from "../assets/images";

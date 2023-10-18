@@ -1,5 +1,4 @@
-import React from "react";
-import { aboutImg1, aboutImg2, num87, num92, signature } from "../assets/images";
+import { aboutImg1, aboutImg2, signature } from "../assets/images";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";
 import Percentage from "../components/Percentage";
@@ -42,13 +41,13 @@ const About = () => {
 					<div className="flex lg:flex-row flex-col gap-16">
 						<Percentage
 							percent="92"
-							imgSrc={num92}>
+							imgSrc={92}>
 							Private <br /> Coaching
 						</Percentage>
 
 						<Percentage
 							percent="87"
-							imgSrc={num87}>
+							imgSrc={87}>
 							Group <br /> Program
 						</Percentage>
 					</div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { servicesData } from "../libs/constants";
 import ParagraphText from "../components/ParagraphText";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { parallaxImg } from "../assets/images";
 import HeadingText from "../components/HeadingText";
 import ParagraphText from "../components/ParagraphText";

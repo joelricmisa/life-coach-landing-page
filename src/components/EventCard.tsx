@@ -1,4 +1,3 @@
-import React from "react";
 import { FaClock, FaLocationDot } from "react-icons/fa6";
 
 type Props = {

@@ -1,4 +1,3 @@
-import React from "react";
 import { whyImg } from "../assets/images";
 import { whyData } from "../libs/constants";
 import HeadingText from "../components/HeadingText";
