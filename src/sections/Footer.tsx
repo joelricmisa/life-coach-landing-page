@@ -73,7 +73,7 @@ const Footer = () => {
 				</div>
 
 				<div className="flex md:flex-row flex-col gap-5 justify-between py-5 mt-10">
-					<p className="text-gray-400">©2023 Lifkoach Landing Page - All Rights Reserved</p>
+					<p className="text-gray-400">©2023 Lifecoach Landing Page - All Rights Reserved</p>
 					<div>
 						<a
 							href=""
